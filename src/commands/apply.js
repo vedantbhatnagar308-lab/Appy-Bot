@@ -218,12 +218,3 @@ const command = {
 
 export default command;
 
-/**
- * Project: Applications Bot
- * Author: aliyie (Ayl)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
- * License: Custom
- *
- * © 2026 AeroX Development. All rights reserved.
- */
