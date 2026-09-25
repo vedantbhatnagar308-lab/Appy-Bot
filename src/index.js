@@ -94,12 +94,3 @@ client.login(TOKEN).then(() => {
   logger.success("client", `Online as ${client.user?.tag}`);
 });
 
-/**
- * Project: Applications Bot
- * Author: aliyie (Ayl)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
- * License: Custom
- *
- * © 2026 AeroX Development. All rights reserved.
- */
