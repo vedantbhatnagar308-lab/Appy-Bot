@@ -1,4 +1,4 @@
-# AeroX Application Bot
+# Touchpoint Application Bot
 
 A Discord bot for managing server applications, support tickets, giveaways, and polls — built and maintained by AeroX Development.
 
@@ -20,7 +20,7 @@ A Discord bot for managing server applications, support tickets, giveaways, and 
 
 ## Overview
 
-AeroX Application Bot is a multi-purpose Discord bot designed to streamline server management. It provides a fully interactive application system with custom questions, a ticketing system with staff controls, giveaway and poll management, and export tools for reviewing applicants — all operated through Discord slash commands.
+TouchPoint Application Bot is a multi-purpose Discord bot designed to streamline server management. It provides a fully interactive application system with custom questions, a ticketing system with staff controls, giveaway and poll management, and export tools for reviewing applicants — all operated through Discord slash commands.
 
 ---
 
@@ -56,6 +56,7 @@ AeroX Application Bot is a multi-purpose Discord bot designed to streamline serv
 - Help command with categorized command browsing
 - Bot stats overview
 - Automatic custom emoji sync on startup
+- ____________________________________________________________________________________________________________________________________________________________
 
 ---
 
@@ -93,36 +94,29 @@ AeroX Application Bot is a multi-purpose Discord bot designed to streamline serv
 | `/poll create` | Create a new poll | Admin |
 | `/help` | Browse all bot commands by category | Everyone |
 | `/stats` | View bot statistics | Everyone |
-
+_____________________________________________________________________________________________________________________________________________________________________
 ---
 
 ## Setup
 
-**1. Clone the repository**
+**1.Fork This Repository**
+## Fork This Repository
 
-```
-git clone https://github.com/AeroXDevs/applications-bot
-cd applications-bot
-```
 
-**2. Install dependencies**
+**2. Create a new account on Railway (https://railway.com/)**
+### --> Click New Project 
+### --> Configure GitHub On Your New Account
+### --> Click The Project you forked
 
-```
-npm install
-```
+**3. it Will Start Creating**
 
-**3. Create a `.env` file in the root directory**
+### --> It Will Be Crashed 
+### --> Click The Project And then Variables 
+### --> Make Sure You Have Bot Token and The Client ID 
+### --> Add Those In The variables
 
-```
-DISCORD_TOKEN=your_bot_token_here
-DISCORD_CLIENT_ID=your_client_id_here
-```
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-**4. Start the bot**
-
-```
-node src/index.js
-```
 
 On startup the bot will:
 - Sync custom emojis to your Discord application automatically
@@ -142,42 +136,13 @@ All configuration is stored in a local SQLite database (`data/bot.db`) and is ma
 3. Run `/appanel` to create and configure application forms
 4. Run `/application` to review submitted applications
 
----
-
-## Project Structure
-
-```
-applications-bot/
-├── src/
-│   ├── commands/        - Slash command handlers
-│   ├── events/          - Discord event listeners
-│   ├── lib/
-│   │   ├── database.js      - SQLite database layer
-│   │   ├── logger.js        - Coloured console + file logger
-│   │   ├── emojis.js        - Custom emoji definitions
-│   │   ├── app-helpers.js   - Application utilities
-│   │   ├── app-timer.js     - Giveaway timer logic
-│   │   ├── ticket-helpers.js    - Ticket utilities
-│   │   └── ticket-permissions.js - Ticket permission logic
-│   └── index.js         - Bot entry point
-├── tools/
-│   └── sync-emojis.js   - Emoji sync utility (also runs on startup)
-├── data/                - SQLite database (auto-created)
-├── logs/                - Log files (auto-created)
-├── .env                 - Environment variables (not committed)
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Credits
 
 | Role | Name |
 |---|---|
-| Developer | aly (aliyie) |
-| Organization | AeroX Development |
-| GitHub | https://github.com/AeroXDevs |
+| Developer | codebymitch , CortexKai |
+| Organization | TouchPoint |
+| Discord | https://dsc.gg/touchpoint |
 
 ---
 
@@ -185,7 +150,7 @@ applications-bot/
 
 For help, questions, or bug reports, join the AeroX Development support server:
 
-**https://discord.gg/aerox**
+**https://dsc.gg/touchpoint**
 
 ---
 
