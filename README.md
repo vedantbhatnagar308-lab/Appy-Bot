@@ -149,7 +149,7 @@ All configuration is stored in a local SQLite database (`data/bot.db`) and is ma
 
 ## Support
 
-For help, questions, or bug reports, join the AeroX Development support server:
+For help, questions, or bug reports, join the TouchPoint support server:
 
 **https://dsc.gg/touchpoint**
 
