@@ -15,6 +15,7 @@ A Discord bot for managing server applications, support tickets, giveaways, and 
 - [Credits](#credits)
 - [Support](#support)
 - [License](#license)
+- _________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ---
 
